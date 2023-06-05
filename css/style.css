@@ -1,7 +1,7 @@
 .hidden{
     display: none;
 }
-/*
+
 img {
     position:absolute;
     width:100%;
@@ -12,5 +12,4 @@ img {
     bottom:0px;
     z-index: -1;
     opacity:80%;
-    }
-*/
+}
