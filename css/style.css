@@ -1,7 +1,7 @@
 .hidden{
     display: none;
 }
-
+/*
 img {
     position:absolute;
     width:100%;
@@ -12,4 +12,53 @@ img {
     bottom:0px;
     z-index: -1;
     opacity:80%;
+}
+*/
+body {
+    background-color: black;
+    color: #fff;
+    margin: 0;
+    text-align: center;
+}
+ul {
+     list-style: none;
+} 
+#clock {
+    border: 3px solid #ffffff;
+    border-radius: 30px;
+    font-size: 40px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+}
+#qoute{
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+}
+#weather{
+    position: fixed;
+    top: 10px;
+    right: 10px;
+}
+#todo-form input{
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid #CCC;
+    color: #555;
+    box-sizing: border-box;
+    font-size: 18px;
+    height: 50px;
+    position: relative;
+    width: 300px;
+}
+
+#todo-list li{
+    color: #ffffff;
+}
+
+#todo-list button{
+    background-color: transparent;
+    border: none;
 }

@@ -21,7 +21,7 @@ const quotes = [
     },
     {
     quote: 'The fastest way to change yourself is to hang out with people who are already the way you want to be',
-    author: 'REid Hoffman'
+    author: 'Reid Hoffman'
     },
     {
     quote: 'Money is like gasoline during a road trip. You do not want to run out of gas on your trip, but you are not doing a tour of gas stations',
@@ -46,4 +46,4 @@ const quotes = [
     const todaysQuote = quotes[Math.floor(Math.random() * quotes.length)];
 
     quote.innerText = todaysQuote.quote;
-    author.innerText = todaysQuote.author;
+    author.innerText = ", " + todaysQuote.author;

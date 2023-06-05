@@ -14,7 +14,7 @@ function onGeoOk(position){
 function onGeoError(){
    alert('Cant find you. No weather info for you'); 
 }
-
+    
 navigator.geolocation.getCurrentPosition(onGeoOk, onGeoError);
 
 //https://api.openweathermap.org/data/2.5/weather?lat=37.5043024&lon=126.7143415&appid=267df4ac21b8d74ad46a14d12f3fcb73
